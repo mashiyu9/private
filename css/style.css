@@ -5,3 +5,72 @@ body{
   width: 980px;
   margin: 0 auto;
 }
+
+/*  header*/
+
+.header{
+  background-color: #f5b4b3;
+  height: 50px;
+  font-size: 1.5rem;
+}
+.logo_image{
+  float: left;
+  width: 110px;
+  margin :0;
+}
+
+.top_menu{
+  float: right;
+}
+.top_menu li{
+  float: left;
+  width: auto;
+}
+
+.top_menu li a{
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 15px;
+}
+.top_menu li a:hover{
+  text-decoration: underline;
+}
+
+
+
+
+
+/* フロートの勉強 */
+.content_float1{
+  width: 700px;
+  margin: 0 auto;
+  background-color: #ccc;
+}
+.content_float2{
+  width: 700px;
+  height: 300px;
+  margin: 0 auto;
+  background-color: #848484;
+}
+#main {
+  float: left;
+  width: 200px;
+  height: 200px;
+  background-color: #333dff;
+}
+#side{
+  float: left;
+  width: 400px;
+  height: 400px;
+  background: #27c42a;
+}
+#under{
+  clear: left;
+}
+
+.clearfix:after{
+  content: "";
+  display: block;
+  clear: both;
+}
