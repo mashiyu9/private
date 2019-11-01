@@ -1,0 +1,61 @@
+.contact{
+  width: 660px;
+  margin-left: 20px;
+  float: left;
+}
+
+.contact table{
+  font-size: 1.5rem;
+  border-collapse: collapse;
+}
+
+.contact .textarea {
+  width: 476px;
+  padding: 0;
+}
+
+.contact .caption {
+  width: 140px;
+  text-align: right;
+  padding: 0 10px 0 0;
+}
+
+.contact .male{
+  float: left;
+}
+
+.contact tr{
+  height: 7rem;
+}
+
+.contact .female{
+  float: left;
+  padding-left: 1rem;
+}
+
+.contact .btn:hover {
+  opacity: 0.5;
+}
+
+.contact .submit_btn{
+  font-size: 3rem;
+  color: white;
+  text-align: center;
+  background-color: #00bfff;
+  width: 8rem;
+  height: 5rem;
+}
+
+.contact .question{
+  border: solid 2px #bbb;
+  height: 3rem;
+}
+
+.textalign_center{
+  text-align: center;
+}
+
+.test{
+  width: 75px;
+  margin: 0 auto;
+}

@@ -4,6 +4,7 @@
     <meta http-equiv="content-type" content="text/css"; charset="utf-8">
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/contact.css">
     <title></title>
   </head>
   <body>
@@ -17,7 +18,7 @@
           <li class="point"><a href="./contact.html">お問い合わせ</a></li>
         </ul>
       </header>
-      <img src="./images/top.png" class="image_area">
+      <img src="./images/contact.png" class="image_area">
       <div class="wrapper clearfix">
         <aside class="side_menu">
           <nav>
@@ -27,14 +28,44 @@
               <li class="point"><a href="./contact.html">お問い合わせ</a></li>
             </ul>
           </nav>
-          <p class="banner">
-            <a href="#">
-              <img src="./images/banner.png">
-            </a>
-          </p>
         </aside>
-        <article class="content">
-          <p></p>
+        <article class="contact">
+          <form action="post">
+            <table>
+              <tr>
+                <th class="caption"><label for="name" accesskey="n">お名前</label></th>
+                <td><input type="text" name="name" class="textarea" id="name" /></td>
+              </tr>
+              <tr>
+                <th class="caption">メールアドレス</th>
+                <td><input type="text" class="textarea" name="mail"></td>
+              </tr>
+              <tr>
+                <th class="caption">性別</th>
+                <td>
+                  <div class="clearfix">
+                    <div class="male">
+                      <input type="radio" name="sex" value="male" id="male">
+                      <label for="male" accesskey="m">男</label>
+                    </div>
+                    <div class="female">
+                      <input type="radio" name="sex" value="female" id="female">
+                      <label for="female" accesskey="f">女</label>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <th class="caption">お問い合わせ内容</th>
+                <td>
+                  <input type="text" class="textarea question" name="question">
+                </td>
+              </tr>
+            </table>
+            <div class="test">
+              <input type="submit" value="送信" class="btn submit_btn">
+            </div>
+          </form>
         </article>
       </div>
       <footer class="footer">
